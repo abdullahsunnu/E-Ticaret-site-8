@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+	.Header .Header-container {
+		flex-direction: row;
+	}
+
+	.Header .Header-logo {
+		width: 100%;
+	}
+
+	.Header>.container .Header-right {
+		position: static;
+		display: flex;
+	}
+
+	.Header>.container .Header-right-profile {
+		display: block;
+	}
+
+	.Header.sticky .Header-container {
+		padding: 10px 20px;
+	}
+
+	.sanal_pos_basvuru_content {
+		padding-left: 0;
+	}
+
+	.sanal_pos_basvuru_content svg {
+		display: none;
+	}
+
+	.members_form_social_links {
+		display: flex;
+		flex-direction: column;
+	}
+}
